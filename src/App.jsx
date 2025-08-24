@@ -2,6 +2,7 @@ import { useState } from "react";
 import Header from "./Header";
 import Login, { Profile, Setting, userKey } from "./userComponent";
 import ToDo from "./ToDo";
+import Fun from "./fun";
 
 function App() {
   const name = "Pankaj Prem";
@@ -34,6 +35,7 @@ function App() {
       return a * b;
     }
   }
+
   // object and array
 
   // const [counter, setCounter]= useState(0);
@@ -62,13 +64,17 @@ function App() {
     <h1>result= {operation(20, 10, "+")}</h1>
 
     <ToDo />
+    
     <h1>{userObj.name}</h1>
     <h1>{userArray[0]}</h1>
     <h1>Pankaj Prem ToDo</h1>
-<br />
-     <input type="text" value={name} id={name} />
+
+    <br />
+    <input type="text" value={name} id={name} />
     <img src={path} alt="random" class="photo" />
 
+    <br />
+<Fun/>
   </>
 
   )
