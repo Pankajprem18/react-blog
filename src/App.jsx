@@ -3,6 +3,7 @@ import Header from "./Header";
 import Login, { Profile, Setting, userKey } from "./userComponent";
 import ToDo from "./ToDo";
 import Fun from "./fun";
+import State from "./State";
 
 function App() {
   const name = "Pankaj Prem";
@@ -75,6 +76,8 @@ function App() {
 
     <br />
 <Fun/>
+<br />
+<State/>
   </>
 
   )
