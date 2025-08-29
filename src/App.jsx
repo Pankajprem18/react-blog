@@ -4,6 +4,7 @@ import Login, { Profile, Setting, userKey } from "./userComponent";
 import ToDo from "./ToDo";
 import Fun from "./fun";
 import State from "./State";
+import Hide_show from "./hide_show";
 
 function App() {
   const name = "Pankaj Prem";
@@ -78,6 +79,7 @@ function App() {
 <Fun/>
 <br />
 <State/>
+<Hide_show/>
   </>
 
   )
