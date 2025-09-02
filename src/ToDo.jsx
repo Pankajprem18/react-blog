@@ -5,7 +5,7 @@ function ToDo() {
     return (
         <div>
             <h1>Pankaj Prem ToDo</h1>
-            <img src="https://picsum.photos/id/237/200/300" alt="random" class="photo" />
+            <img src="https://picsum.photos/id/237/200/300" alt="random"  />
 
             <ul>
                 <li>Invent new traffic lights</li>

@@ -73,7 +73,7 @@ function App() {
 
     <br />
     <input type="text" value={name} id={name} />
-    <img src={path} alt="random" class="photo" />
+    <img src={path} alt="random"  />
 
     <br />
 <Fun/>

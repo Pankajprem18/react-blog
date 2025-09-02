@@ -1,7 +1,34 @@
 import { useState } from "react";
+import Props from "./Props";
+import College from "./College";
+
 
 
 function Hide_show() {
+    // using Props
+
+    // let userName = "Pankaj Prem";
+    // let age = 25;
+    // let email = "pankajkrp16@gmail.com";
+
+    let userObject = {
+        name: "Pankaj Kumar Mandal",
+        age: 29,
+        email: "pankajkrp16@gmail.com"
+    }
+     let userObject2 = {
+        name: "Pankaj prem",
+        age: 25,
+        email: "pankajkrp161@gmail.com"
+    }
+     let userObject3 = {
+        name: "Manoj",
+        age: 24,
+        email: "manojkrp161@gmail.com"
+    }
+
+    let collegeNames = ['LPU', 'CU', 'DU', 'PU', 'JU']
+
     const [display, setDisplay] = useState(true)
     const [count, setCount] = useState(0);
     return (
@@ -29,8 +56,14 @@ function Hide_show() {
                                                 : count == 8 ? <h1>Condition 8</h1>
                                                     : <h1>Other condtion </h1>
             }
+            {/* <Props name = {userName} age = {age} email = {email}/> */}
 
+            <Props userDetails= {userObject}/>
+            <Props userDetails= {userObject2}/>
+            <Props userDetails= {userObject3}/>
+            <College  C_name= {collegeNames}/>
         </div>
+
     )
 }
 export default Hide_show;
