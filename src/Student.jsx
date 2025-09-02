@@ -1,3 +1,4 @@
+
 function Student({name}) {
     return (
         <div>
