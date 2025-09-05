@@ -1,4 +1,5 @@
 import { useState } from "react";
+import C_component from "./C_component";
 
 function Ifield() {
     const [val, setVal] = useState("Pankaj Kumar Mandal")
@@ -9,6 +10,7 @@ function Ifield() {
             <input type="text" placeholder="Enter your name" value={val} onChange={(event) => setVal(event.target.value)} />
             <h1>{val}</h1>
             <button onClick={() => setVal("")}>Clear </button>
+            <C_component/>
         </div>
     )
 }
