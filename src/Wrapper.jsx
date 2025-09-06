@@ -1,15 +1,22 @@
-import Ifield from "./Ifield";
+
 
 function Wrapper({ children, color }) {
-    return (
-        <div>
-            <div style={{ color: color || "red", border: "5px solid red", width: "300px", margin: "10px 0" }}>
-                {children}
+  return (
+    <div>
+    <div
+      style={{
+        color: color || "red",
+        border: "5px solid red",
+        width: "300px",
+        margin: "10px 0",
+      }}
+    >
+      {children}
 
-            </div>
-            <Ifield />
-        </div>
-
-    )
+      
+    </div>
+    </div>
+  );
 }
+
 export default Wrapper;

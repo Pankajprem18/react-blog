@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Props from "./Props";
 import College from "./College";
+import Ifield from "./Ifield";
 
 
 
@@ -62,6 +63,8 @@ function Hide_show() {
             <Props userDetails= {userObject2}/>
             <Props userDetails= {userObject3}/>
             <College  C_name= {collegeNames}/>
+    <Ifield />
+
         </div>
 
     )
