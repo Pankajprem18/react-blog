@@ -14,7 +14,7 @@ function Checkboxes() {
     }
     return (
         <div>
-            <h1>Handle Checkbox in Reach js</h1>
+            <h1>Handle Checkbox in React js</h1>
             <input onChange={HandleSkills} type="checkbox" id="php" value="PHP" />
             <label htmlFor="php">PHP</label>
             <br />
