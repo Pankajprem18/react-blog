@@ -1,4 +1,5 @@
 import { useState } from "react";
+import RadioDropdown from "./radio_dropdown";
 
 function Checkboxes() {
     const [skill, setSkill] = useState([]);
@@ -39,6 +40,7 @@ function Checkboxes() {
             <label htmlFor="python">python</label>
 
             <h1>{skill.toString()}</h1>
+            <RadioDropdown/>
         </div>
     )
 }
