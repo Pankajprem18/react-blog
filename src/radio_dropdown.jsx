@@ -1,4 +1,5 @@
 import { useState } from "react";
+import LoopFun from "./loop_map_fun";
 function RadioDropdown() {
     const [gender, setGender] = useState("female");
     const [city, setCity] = useState("");
@@ -14,16 +15,17 @@ function RadioDropdown() {
             <label htmlFor="female">Female</label>
             <h2>Selected gender : {gender}</h2>
             <br /> <br />
+
             <h4>Select City</h4>
             <select defaultValue={"option"}  onChange={(event)=> setCity(event.target.value)}>
-                <option value="option">Select option</option>
+                <option value="">Select option</option>
                 <option value="Noida">Noida</option>
                 <option value="Delhi">Delhi</option>
                 <option value="Pune">Pune</option>
             </select>
 
             <h2>Selected gender : {city}</h2>
-
+<LoopFun/>
         </div>
     )
 }

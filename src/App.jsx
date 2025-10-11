@@ -66,20 +66,20 @@ function App() {
     <h1>result= {operation(20, 10, "+")}</h1>
 
     <ToDo />
-    
+
     <h1>{userObj.name}</h1>
     <h1>{userArray[0]}</h1>
     <h1>Pankaj Prem ToDo</h1>
 
     <br />
     <input type="text" value={name} id={name} />
-    <img src={path} alt="random"  />
+    <img src={path} alt="random" />
 
     <br />
-<Fun/>
-<br />
-<State/>
-<Hide_show/>
+    <Fun />
+    <br />
+    <State />
+    <Hide_show />
   </>
 
   )
