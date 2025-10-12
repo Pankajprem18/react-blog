@@ -1,7 +1,10 @@
 import User from "./User_comp";
+import Clock from "./Clock";
+import { useState } from "react";
 
 function LoopFun() {
     // const userName = ['anil', 'sam', 'peter', 'bruce'];
+    const [color, setColor] = useState('orange');
     const userData = [
         {
             name: 'Anil',
@@ -113,7 +116,15 @@ function LoopFun() {
                     </div>
                 ))
             }
+            <h1>Digital Clock in React js </h1>
+            <select onChange={(event)=>setColor(event.target.value)}>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="orange">Orange</option>
+            </select>
+            <Clock color= {color}/>
         </div>
-    )
+    ) 
 }
 export default LoopFun;
