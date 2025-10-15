@@ -31,4 +31,3 @@ function UseEffect() {
     )
 }
 export default UseEffect;
-4.37
