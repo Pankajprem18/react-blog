@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import Counts_call from "./Counts_call";
 function UseEffect() {
     const [count, setCount] = useState(0);
     const [data, setData] = useState(0);
@@ -27,6 +27,7 @@ function UseEffect() {
             <button onClick={() => setCount(count + 1)}>Counter: {count}</button>
             <button onClick={() => setData(data + 1)}>data: {data}</button>
 
+           <Counts_call/>
         </div>
     )
 }

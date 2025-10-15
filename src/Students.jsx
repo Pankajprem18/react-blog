@@ -19,7 +19,6 @@ const Students = ({ student }) => {
 
                 ))
             }
-
         </div>
     )
 }
