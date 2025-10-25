@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Counts from "./Counts";
+import Styles from "./assets/Style";
 
 function Counts_call() {
     const [count, setCount] = useState(0);
@@ -22,8 +23,11 @@ function Counts_call() {
             <button onClick={() => setDisplay(!display)}>
                 Toggle
             </button>
+            <Styles/>
         </div>
     );
 }
 
 export default Counts_call;
+
+
