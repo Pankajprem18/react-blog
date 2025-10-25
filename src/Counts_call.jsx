@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Counts from "./Counts";
-import Styles from "./assets/Style";
+import Styles from "./Style";
 
 function Counts_call() {
     const [count, setCount] = useState(0);
