@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Fun from "./CSS/index";
 
 function Dynamic() {
     const [cartStyle, setCardStyle] = useState({
@@ -114,6 +115,7 @@ function Dynamic() {
                     </div>
                 </div>
             </div>
+            <Fun/>
         </>
     );
 }
