@@ -1,3 +1,4 @@
+import Mod from './ModuleCSS/index.jsx';
 import './style.css';
 function Fun() {
     return (
@@ -77,6 +78,21 @@ function Fun() {
                     <p>Software Developer</p>
                 </div>
             </div>
+            </div>
+            {/* user profile section using style with css module */}
+            <h1>Style with Css Module in React js</h1>
+            <div style={{display:'flex', flexWrap:'wrap'}}>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
+            <Mod/>
             </div>
         </div>
     )
