@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-
-
 function StyledSection() {
     // first case
 //     const Heading = styled.h1`
