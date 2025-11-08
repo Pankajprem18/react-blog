@@ -1,4 +1,5 @@
 import Mod from './ModuleCSS/index.jsx';
+import StyledSection from './Styled_Components/index.jsx'
 import './style.css';
 function Fun() {
     return (
@@ -94,6 +95,7 @@ function Fun() {
             <Mod/>
             <Mod/>
             </div>
+            <StyledSection/>
         </div>
     )
 }
